@@ -1,6 +1,5 @@
 package com.example.demo.filters;
 
-import com.example.demo.controllers.UsersController;
 import com.example.demo.services.JwtUserService;
 import com.example.demo.utilities.JwtUtils;
 import io.jsonwebtoken.ExpiredJwtException;
@@ -9,10 +8,8 @@ import org.springframework.security.authentication.UsernamePasswordAuthenticatio
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.web.authentication.WebAuthenticationDetailsSource;
-import org.springframework.security.web.session.SimpleRedirectSessionInformationExpiredStrategy;
 import org.springframework.stereotype.Component;
 import org.springframework.web.filter.OncePerRequestFilter;
-import org.springframework.web.servlet.view.RedirectView;
 
 import javax.servlet.FilterChain;
 import javax.servlet.ServletException;

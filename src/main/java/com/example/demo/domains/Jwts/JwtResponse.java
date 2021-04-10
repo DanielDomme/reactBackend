@@ -1,4 +1,4 @@
-package com.example.demo.models.Jwts;
+package com.example.demo.domains.Jwts;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

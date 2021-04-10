@@ -1,6 +1,6 @@
 package com.example.demo.mockDB;
 
-import com.example.demo.models.users.User;
+import com.example.demo.domains.users.User;
 import lombok.NoArgsConstructor;
 
 import java.util.ArrayList;

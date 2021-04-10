@@ -1,6 +1,6 @@
 package com.example.demo.mockDB;
 
-import com.example.demo.models.users.User;
+import com.example.demo.domains.users.User;
 import org.junit.jupiter.api.Test;
 
 import java.util.Optional;

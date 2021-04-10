@@ -1,4 +1,4 @@
-package com.example.demo.models.users;
+package com.example.demo.domains.users;
 
 import lombok.Getter;
 

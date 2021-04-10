@@ -1,7 +1,7 @@
 package com.example.demo.services;
 
 import com.example.demo.mockDB.UsersTable;
-import com.example.demo.models.users.User;
+import com.example.demo.domains.users.User;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

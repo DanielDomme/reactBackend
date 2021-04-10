@@ -1,7 +1,7 @@
 package com.example.demo.controllers;
 
-import com.example.demo.models.Jwts.JwtRequest;
-import com.example.demo.models.Jwts.JwtResponse;
+import com.example.demo.domains.Jwts.JwtRequest;
+import com.example.demo.domains.Jwts.JwtResponse;
 import com.example.demo.services.JwtUserService;
 import com.example.demo.utilities.JwtUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -25,6 +25,11 @@ public class JwtController {
     private AuthenticationManager authenticationManager;
     @Autowired
     private JwtUserService jwtUserService;
+
+    /* Example User= {
+    "userName": "daniel.domme",
+    "password": "643&*@jdadnfakd"
+    } */
 
     @RequestMapping(value = "/authenticate", method = RequestMethod.POST)
     public ResponseEntity<JwtResponse> generateAuthenticationToken(@RequestBody JwtRequest authenticationRequest) throws Exception {
